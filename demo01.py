@@ -18,6 +18,10 @@ class pronson(object):
 
 # 使用property装饰器，为实例的attribute 增加（除访问与修改之外的）其他处理逻辑
 class Person:
+    """
+    https://blog.csdn.net/cnds123/article/details/129420059
+    https://docs.python.org/zh-cn/3/index.html ->Python 3.12.2 文档
+    """
     def __init__(self, first_name):
         self.first_name = first_name
 
