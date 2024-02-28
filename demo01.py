@@ -23,6 +23,10 @@ class Person:
     https://docs.python.org/zh-cn/3/index.html ->Python 3.12.2 文档
     """
     def __init__(self, first_name):
+        """
+        :param first_name:1
+        :param first_name: 2
+        """
         self.first_name = first_name
 
     # 定义相关联的函数（方法），这里是三个，名字都必须一样。
