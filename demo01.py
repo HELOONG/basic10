@@ -1,3 +1,5 @@
+import requests
+
 num = 1
 num2 = 20
 num3 = 3000
@@ -5,6 +7,8 @@ num4 = 40
 num5 = 50
 num6 = 60
 num7 = 70
+
+r = requests.post('http://127.0.0.1:')
 
 
 class pronson(object):
@@ -22,6 +26,7 @@ class Person:
     https://blog.csdn.net/cnds123/article/details/129420059
     https://docs.python.org/zh-cn/3/index.html ->Python 3.12.2 文档
     """
+
     def __init__(self, first_name):
         """
         :param first_name:1
